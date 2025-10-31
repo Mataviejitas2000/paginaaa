@@ -1,0 +1,63 @@
+body {
+  background-color: #ffffff; 
+  font-family: Arial, sans-serif;
+  color: #0b0b45;
+  margin: 20px;
+}
+
+
+h1 {
+  text-align: center;
+  color: #0b0b45;
+  border-bottom: 2px solid #d4af37; 
+  padding-bottom: 10px;
+}
+
+
+.Leyendas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+
+.gallery {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 250px;
+  background-color: #f7f7f7;
+  transition: 0.3s;
+}
+
+.gallery:hover {
+  border-color: #d4af37;
+  transform: scale(1.03);
+}
+
+
+.gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid #ccc;
+}
+
+
+.desc {
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
+}
+
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #d4af37;
+}

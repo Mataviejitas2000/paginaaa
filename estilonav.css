@@ -1,0 +1,47 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.realmadrid-header {
+  background-color: #ffffff; 
+  border-bottom: 3px solid #0b0b45; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+}
+
+.realmadrid-header .logo {
+  height: 70px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 25px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0b0b45; 
+  font-weight: bold;
+  font-family: 'Verdana', sans-serif;
+  transition: 0.3s;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: #f2f2f2; 
+  color: #c1a33a; 
+}
+
+header, img, nav {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}

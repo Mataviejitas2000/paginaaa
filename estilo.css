@@ -1,0 +1,24 @@
+div.gallery {
+    margin: 10px;
+    border: 1px solid #f3f1de;
+    float: left;
+    width: 280px;
+    height: 480px; /* fija altura para uniformidad */
+    text-align: center;
+    overflow: hidden; /* evita que algo se desborde */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+}
+
+div.gallery img {
+    width: 100%;
+    height: 380px; /* fija altura igual para todas las imágenes */
+    object-fit: cover; /* recorta sin deformar */
+    display: block;
+}
+
+div.desc {
+    padding: 10px;
+    text-align: center;
+    font-size: 15px;
+}

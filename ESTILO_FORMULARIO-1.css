@@ -1,0 +1,80 @@
+/* 🏟️ Fondo con azul suave estilo Real Madrid */
+body {
+    background-color: #0a174e; 
+    background-image: linear-gradient(180deg, #0a174e 0%, #1b2845 50%, #132c6b 100%);
+    color: #ffffff; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+input {
+    width: 100%;
+    padding: 17px;
+    margin: 10px;
+    border: 2px solid #d4af37; 
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    color: #0a174e; 
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    border-color: #00529f; 
+    outline: none;
+    box-shadow: 0 0 8px #d4af37;
+}
+
+
+label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    color: #f5c518; 
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+
+select {
+    width: 100%;
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid #d4af37;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #0a174e;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+}
+
+
+div.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+}
+
+
+input[type="submit"] {
+    background-color: #ffffff;
+    color: #0a174e;
+    font-weight: bold;
+    border: 2px solid #d4af37;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #00529f;
+    color: #ffffff;
+    border-color: #ffffff;
+}
